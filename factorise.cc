@@ -41,7 +41,7 @@ std::vector<L> factorise(L n) {
 
 
 int main() {
-    for (L n : {315, 588, 2206637, 3111989, 13091989}) {
+    for (L n : {2, 3, 6, 9, 27, 105, 315, 588, 2206637, 3111989, 13091989}) {
         std::cout << n << ": " << factorise(n) << std::endl;
     }
 
